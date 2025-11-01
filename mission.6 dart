@@ -1,0 +1,7 @@
+void main() {
+  List<int> nums = [-3, 5, -8, 12, -1, 7];
+
+  List<int> positive = nums.where((n) => n >= 0).toList();
+
+  print(positive); // only positive
+}
